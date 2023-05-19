@@ -1,0 +1,25 @@
+{
+  "statefulConfig": {
+    "triggerName": "httpTrigger",
+    "description": "",
+    "triggerId": "292558b2-dd75-4b97-abc9-54878a9b62e3",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": null,
+    "urlInternet": "https://jueblog-sl-server-izprqqeemw.cn-beijing.fcapp.run",
+    "urlIntranet": "https://jueblog-sl-server-izprqqeemw.cn-beijing-vpc.fcapp.run",
+    "triggerConfig": {
+      "methods": [
+        "GET"
+      ],
+      "authType": "anonymous",
+      "disableURLInternet": false
+    },
+    "createdTime": "2023-05-07T23:03:23Z",
+    "lastModifiedTime": "2023-05-19T06:28:04Z",
+    "status": null,
+    "targetArn": null,
+    "name": "httpTrigger"
+  }
+}

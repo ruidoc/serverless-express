@@ -1,0 +1,45 @@
+{
+  "statefulConfig": {
+    "functionId": "1c435b65-4533-4f0a-8f86-d1f5d01ba423",
+    "functionName": "jueblog",
+    "description": "Serverless Devs Web Framework Function",
+    "runtime": "custom",
+    "handler": "index.handler",
+    "timeout": 60,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 781970,
+    "codeChecksum": "10961088882798577066",
+    "memorySize": 128,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2023-05-07T23:03:23Z",
+    "lastModifiedTime": "2023-05-19T06:28:04Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": {
+      "command": [
+        "./bootstrap"
+      ],
+      "args": null
+    },
+    "customHealthCheckConfig": null,
+    "name": "jueblog"
+  }
+}
